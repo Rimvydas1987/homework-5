@@ -1,0 +1,253 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* display: flex;
+  justify-content: center; */
+  background: linear-gradient(-90deg,#4e04fa 0%, #faf603 100%);
+  
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.kvadratas {
+  width: 223px;
+  height: 223px;
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+  span {
+    font-size: 30px;
+  }
+  &.br {background-color: green;}
+}
+
+.button8 {
+  display:inline-block;
+  padding:0.2em 1.45em;
+  margin:0.1em;
+  border:0.15em solid #CCCCCC;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Segoe UI','Roboto',sans-serif;
+  font-weight:400;
+  color:#000000;
+  background-color:#CCCCCC;
+  text-align:center;
+  position:relative;
+  }
+
+.button8:hover {
+  border-color:#7a7a7a;
+  }
+
+.button8:active {
+  background-color:#999999;
+  }
+  @media all and (max-width:30em){
+.button8{
+  display:block;
+  margin:0.2em auto;
+  }
+  }
+
+
+#root {
+  padding: 50px;
+}
+.nice-d{
+  width: 30px;
+  height: 30px;
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 5px;
+  &.green{
+    background-color: greenyellow;
+  }
+}
+
+.bin {
+  margin: 20px;
+  padding: 10px;
+  border: 3px dotted orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.rutulys {
+  border-radius: 500px;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  .input-button {
+    position: absolute;
+    display: block;
+    margin-top: 60px;
+    margin-left: 194px;
+    margin-top: 20px;
+
+  }
+}
+.input-color{
+  position: absolute;
+    font-size: 20px;
+    display: block;
+    margin-left: 123px;
+    margin-top: 60px;
+}
+.input-size{
+  position: absolute;
+    font-size: 20px;
+    display: block;
+    margin-left: 123px;
+    margin-top: 100px;
+}
+
+.input-checkbox{
+  position: absolute;
+    font-size: 20px;
+    display: block;
+    margin-left: 220px;
+    margin-top: 150px;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.spausk {
+  width: 200px;
+  height: 70px;
+  margin-left: 150px;
+  margin-top: 50px;
+  background-color: white;
+  border: solid 1px;
+  font-size: 30px;
+  text-transform: uppercase;
+  position: relative;
+  .reg{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 10px;
+  }
+}
+
+.spauskYellow {
+  width: 200px;
+  height: 70px;
+  margin-left: 150px;
+  margin-top: 120px;
+  border: solid 1px;
+  font-size: 30px;
+  text-transform: uppercase;
+  background-color: yellow;
+}
+.spauskGreen{
+  width: 200px;
+  height: 70px;
+  margin-left: 150px;
+  margin-top: 20px;
+  border: solid 1px;
+  font-size: 30px;
+  text-transform: uppercase;
+  display: block;
+  background-color: green;
+}
+.spauskRed {
+  width: 200px;
+  height: 70px;
+  margin-left: 150px;
+  margin-top: 20px;
+  border: solid 1px;
+  font-size: 30px;
+  text-transform: uppercase;
+  display: block;
+  background-color: red;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100px;
+  height: 20px;
+  font-size: 10px;
+
+}
+
+
+
+
+
+
+
+.small-circle{
+  border-radius: 200px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  display: flex;
+  border: solid 1px;
+  display: inline-block;
+  margin: 45px;
+}
+
+.input-buttonSmallDelete{
+  height: 45px;
+  font-size: 15px;
+  margin-left: 55px;
+  
+}
+
+.input-buttonSmallUpdate{
+  height: 30px;
+  font-size: 15px;
+  margin-left: 55px;
+}
+
+div {
+  margin: 5px;
+}
+
+.text {
+  font-weight: 1000;
+  height: 40px;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.updateInput {
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-bottom: 5px;
+  border: solid 1px;
+  width: 100px;
+}
+
+.input-button {
+  background: linear-gradient(47deg, #234ad5 0%, #0265de 100%);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 4px 8px 0px #0005;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  margin: 5px;
+}
