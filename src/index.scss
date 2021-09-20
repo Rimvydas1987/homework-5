@@ -197,9 +197,9 @@ code {
 
 
 .small-circle{
-  border-radius: 200px;
-  width: 200px;
-  height: 200px;
+  border-radius: 250px;
+  width: 250px;
+  height: 250px;
   position: relative;
   display: flex;
   border: solid 1px;
@@ -208,16 +208,22 @@ code {
 }
 
 .input-buttonSmallDelete{
-  height: 45px;
+  height: 30px;
   font-size: 15px;
-  margin-left: 55px;
+  margin-left: 85px;
+  box-shadow: 0px 4px 8px 0px #0005;
+  cursor: pointer;
+  border-radius: 20px;
   
 }
 
 .input-buttonSmallUpdate{
   height: 30px;
   font-size: 15px;
-  margin-left: 55px;
+  margin-left: 85px;
+  box-shadow: 0px 4px 8px 0px #0005;
+  cursor: pointer;
+  border-radius: 20px;
 }
 
 div {
@@ -226,15 +232,13 @@ div {
 
 .text {
   font-weight: 1000;
-  height: 40px;
   display: block;
   text-align: center;
   margin-top: 10px;
 }
 
 .updateInput {
-  margin-top: 20px;
-  margin-left: 40px;
+  margin-left: 70px;
   margin-bottom: 5px;
   border: solid 1px;
   width: 100px;
@@ -242,12 +246,27 @@ div {
 
 .input-button {
   background: linear-gradient(47deg, #234ad5 0%, #0265de 100%);
-  color: #fff;
-  border: none;
+  color: black;
   border-radius: 20px;
   box-shadow: 0px 4px 8px 0px #0005;
   cursor: pointer;
   width: 100px;
   height: 30px;
   margin: 5px;
+}
+
+.editColor{
+  justify-content: center;
+}
+
+.farm{
+  justify-content: center;
+}
+.input-buttonSmallUpdateFarm{
+  height: 30px;
+  font-size: 15px;
+  margin-left: 70px;
+  box-shadow: 0px 4px 8px 0px #0005;
+  cursor: pointer;
+  border-radius: 20px;
 }
