@@ -41,7 +41,7 @@ render () {
 
         <div className="farm">
             <input className="updateInput" type="text" value={this.state.editInputFarm} onChange={this.editInputFarmHandler}/>
-            <button className="input-buttonSmallUpdateFarm" onClick={()=>this.props.edit(this.props.id, this.state.editInputFarm)}>Change Farm</button>
+            <button className="input-buttonSmallUpdateFarm" onClick={()=>this.props.edit2(this.props.id, this.state.editInputFarm)}>Change Farm</button>
         </div>
     </div>);
 }
