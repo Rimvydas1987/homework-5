@@ -112,7 +112,7 @@ class App extends React.Component {
                         <button className="input-button" onClick={()=>this.addAnimal('sheep')}>Add Sheep</button>
                     </div>
                 </div>
-                {this.state.animals.map((b, i) => <SmallAnimal key={b.id} delete={this.deleteAnimal} edit={this.editAnimal/* , this.editAnimalFarm */} id={b.id} color={b.color} farm={b.farm} animal={b.animal} />)}
+                {this.state.animals.map((b, i) => <SmallAnimal key={b.id} delete={this.deleteAnimal} edit={this.editAnimal} edit2={this.editAnimalFarm} id={b.id} color={b.color} farm={b.farm} animal={b.animal} />)}
             </>
         );
     }
